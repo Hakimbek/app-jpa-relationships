@@ -14,9 +14,9 @@ import java.util.Optional;
 @RestController
 @RequestMapping(value = "/faculty")
 public class FacultyController {
-
     @Autowired
     FacultyRepository facultyRepository;
+
     @Autowired
     UniversityRepository universityRepository;
 
